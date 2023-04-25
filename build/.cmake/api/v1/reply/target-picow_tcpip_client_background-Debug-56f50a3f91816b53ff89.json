@@ -84,34 +84,6 @@
 				"parent" : 8
 			},
 			{
-				"command" : 7,
-				"file" : 0,
-				"line" : 20,
-				"parent" : 0
-			},
-			{
-				"command" : 6,
-				"file" : 5,
-				"line" : 47,
-				"parent" : 10
-			},
-			{
-				"command" : 5,
-				"file" : 2,
-				"line" : 64,
-				"parent" : 11
-			},
-			{
-				"file" : 4,
-				"parent" : 12
-			},
-			{
-				"command" : 3,
-				"file" : 4,
-				"line" : 43,
-				"parent" : 13
-			},
-			{
 				"command" : 4,
 				"file" : 0,
 				"line" : 5,
@@ -121,19 +93,47 @@
 				"command" : 3,
 				"file" : 2,
 				"line" : 42,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 47,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 64,
+				"parent" : 13
+			},
+			{
+				"file" : 4,
+				"parent" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 43,
 				"parent" : 15
 			},
 			{
 				"command" : 8,
 				"file" : 5,
 				"line" : 30,
-				"parent" : 10
+				"parent" : 12
 			},
 			{
 				"command" : 9,
 				"file" : 2,
 				"line" : 47,
-				"parent" : 15
+				"parent" : 10
 			},
 			{
 				"command" : 9,
@@ -1798,12 +1798,12 @@
 			"id" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h::@c2fb4f534018e64680d5"
 		},
 		{
-			"backtrace" : 14,
-			"id" : "ELF2UF2Build::@15c4a824ab2728a3f5e7"
+			"backtrace" : 11,
+			"id" : "picow_tcpip_client_background_encoder_pio_h::@15c4a824ab2728a3f5e7"
 		},
 		{
 			"backtrace" : 16,
-			"id" : "picow_tcpip_client_background_encoder_pio_h::@15c4a824ab2728a3f5e7"
+			"id" : "ELF2UF2Build::@15c4a824ab2728a3f5e7"
 		}
 	],
 	"id" : "picow_tcpip_client_background::@15c4a824ab2728a3f5e7",

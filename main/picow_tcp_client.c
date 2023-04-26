@@ -255,7 +255,7 @@ int main() {
     quadrature_encoder_program_init(pio2,sm2, offset2, PIN_AB2, 0);
     quadrature_encoder_program_init(pio2, sm3, offset2, PIN_AB3, 0);
     quadrature_encoder_program_init(pio2,sm4, offset2, PIN_AB4, 0);  
-    
+    /*
     // Set PWM pins and channels for motor drivers
     gpio_set_function(0, GPIO_FUNC_PWM);
     gpio_set_function(1, GPIO_FUNC_PWM);
@@ -283,7 +283,7 @@ int main() {
     pwm_set_gpio_level(1, 9804/2);
     pwm_set_gpio_level(2, 9804/2);
     pwm_set_gpio_level(3, 9804/2);
-
+    */
     // Set GPIO pins for motor driver inputs
     const uint PIN_IN1A = 4;
     const uint PIN_IN1B = 5;
@@ -294,7 +294,9 @@ int main() {
     const uint PIN_IN4A = 10;
     const uint PIN_IN4B = 11; 
 
-
+    struct Motor motor = init_motor(PIN_IN2A,PIN_IN2B,16);
+    init_motor_pwm(&motor,0,9804/2);
+    init_PID(&motor,1000,30000);
 
     while(1){
         if(is_spin_locked(spinlock)){
@@ -309,23 +311,32 @@ int main() {
             sleep_ms(1);
         }
 
-        new_value1 = quadrature_encoder_get_count(pio2, sm);
+        new_value3 = quadrature_encoder_get_count(pio2, sm3);
+        //new_value2 = quadrature_encoder_get_count(pio2, sm2);
+        //new_value1 = quadrature_encoder_get_count(pio2, sm);
+        /*
         delta = new_value1 - old_value1;
         old_value1 = new_value1;
-        new_value2 = quadrature_encoder_get_count(pio2, sm2);
+        v
         delta2 = new_value2 - old_value2;
         old_value2 = new_value2;
-        new_value3 = quadrature_encoder_get_count(pio2, sm3);
+        
         delta3 = new_value3 - old_value3;
         old_value3 = new_value3;
         new_value4 = quadrature_encoder_get_count(pio2, sm4);
         delta4 = new_value4 - old_value4;
         old_value4 = new_value4;
-        
-        printf("___________________\nposition 1 %8d| delta 1 %6d|\n", new_value1, delta);
+        */
+       long int fututi_mortii_pizdii_pulii_pizdii_ma_tii_lu_ma_ta = 3500;
+       printf("%d pizda masii 1 \n",fututi_mortii_pizdii_pulii_pizdii_ma_tii_lu_ma_ta);
+        move_motor_abs(&motor,fututi_mortii_pizdii_pulii_pizdii_ma_tii_lu_ma_ta, new_value3);
+
+        printf("___________________\nposition 1 %8d|\n", new_value3);
+        /*
         printf("___________________\nposition 2 %8d| delta 2 %6d|\n", new_value2, delta2);
         printf("___________________\nposition 3 %8d| delta 3 %6d|\n", new_value3, delta3);
         printf("___________________\nposition 4 %8d| delta 4 %6d|\n", new_value4, delta4);
+ */   
     }
     return 0;
 }

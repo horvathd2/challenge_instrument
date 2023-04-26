@@ -16,17 +16,17 @@ struct PWM{
 struct PID{
     uint8_t Kp;
     uint32_t minSpeed;
-    uint32_t current_pos;
-    uint32_t pos_error;
-    uint32_t pos_setpoint;
+    long int current_pos;
+    long int pos_error;
+    long int pos_setpoint;
     uint32_t duty_cycle;
     uint32_t critical_delta;
     uint32_t limit;
 };
 struct Motor{
-    uint8_t fwdPin;
-    uint8_t bwdPin;
-    uint8_t encoderAB;
+    int fwdPin;
+    int bwdPin;
+    int encoderAB;
     struct PWM pwm;
     struct PID pid; 
 };
@@ -38,7 +38,7 @@ struct Motor{
  * @param pwm_pin pin for pwm to driver, pins are in pairs doe to slices
  * @return motor structure
 */
-struct Motor init_motor(uint8_t fwdPin, uint8_t bwdPin, uint encoderAB){
+struct Motor init_motor(int fwdPin, int bwdPin, int encoderAB){
    
     // initialize motor components
     struct Motor motor;
@@ -50,7 +50,7 @@ struct Motor init_motor(uint8_t fwdPin, uint8_t bwdPin, uint encoderAB){
     gpio_init(fwdPin);
     gpio_init(bwdPin);
     gpio_set_dir(fwdPin, true);
-    gpio_set_dir(bwdPin, false);
+    gpio_set_dir(bwdPin, true);
 
     return motor;
 }
@@ -72,7 +72,7 @@ void init_PID(struct Motor *motor,uint32_t critical_delta, uint32_t limit){
  * @param pin the pwm pin (must be in pairs) that leads to the driver
  * @param frequency the frequency of the pwm duty cycle [0 - 9804]
 */
-void init_motor_pwm(struct Motor *motor, uint pin, int frequency){
+void init_motor_pwm(struct Motor *motor, int pin, int frequency){
 
     motor->pwm.pin = pin;                                   
     gpio_set_function(motor->pwm.pin, GPIO_FUNC_PWM);                           // set pin function
@@ -92,6 +92,7 @@ void init_motor_pwm(struct Motor *motor, uint pin, int frequency){
  * @param motor the motor that will move
 */
 inline static void forward(struct Motor *motor){
+    printf("moving fed\n");
     gpio_put(motor->fwdPin,1);
     gpio_put(motor->bwdPin,0);
     pwm_set_chan_level(motor->pwm.slice_num, motor->pwm.channel, motor->pid.duty_cycle);
@@ -101,6 +102,7 @@ inline static void forward(struct Motor *motor){
  * @param motor the motor in question
 */
 inline static void backrward(struct Motor *motor){
+    printf("movin bwd\n");
     gpio_put(motor->fwdPin,0);
     gpio_put(motor->bwdPin,1);
     pwm_set_chan_level(motor->pwm.slice_num, motor->pwm.channel, motor->pid.duty_cycle);
@@ -113,6 +115,7 @@ inline static void stop(struct Motor *motor){
     gpio_put(motor->fwdPin,0);
     gpio_put(motor->bwdPin,0);
     pwm_set_chan_level(motor->pwm.slice_num,motor->pwm.channel,0);
+    printf("im on dtyop\n");
 }
 /**
  * @brief update function, needs to be called from main methon for each motor, it requires encoder ticks
@@ -128,7 +131,7 @@ void update_error(struct Motor *motor, int encoder){
  * @brief static inline function, that sets the setpoint in the motor structure
  * @param motor the motor who's setpoint will be modified
 */
-inline static void set_motor_sp(struct Motor *motor, uint32_t SP){
+static void set_motor_sp(struct Motor *motor, long int SP){
     motor->pid.pos_setpoint = SP;
 }
 
@@ -140,7 +143,8 @@ inline static void compute_duty(struct Motor *motor){
     if(motor->pid.pos_error > motor->pid.critical_delta) 
         motor->pid.duty_cycle = 100; //max speed in %
     else
-        motor->pid.duty_cycle = motor->pid.minSpeed + ((abs(motor->pid.pos_error)/motor->pid.critical_delta)*(100-motor->pid.minSpeed));
+        motor->pid.duty_cycle = motor->pid.minSpeed + ((abs(motor->pid.pos_error)/motor->pid.critical_delta)*(100));
+    motor->pid.duty_cycle = motor->pid.duty_cycle/100 * 65535;    
 }
 /**
  * @brief function to detect motor stop conditions
@@ -174,11 +178,17 @@ void move_motor_inc(struct Motor *motor,uint32_t *position_delta,  void (*action
  * @param abs_pos absolute position [ticks]
  * @param encoder encoder ticks[ticks]
 */
-void move_motor_abs(struct Motor *motor, uint32_t abs_pos,int encoder){
+void move_motor_abs(struct Motor *motor, long int abs_pos,int encoder){
+    printf("%d pizda massii 2 \n",abs_pos);
     set_motor_sp(motor,abs_pos);
     update_error(motor,encoder);
-    if(motor->pid.pos_error > 10)
+    compute_duty(motor);
+    if(motor->pid.pos_error > 100){
         forward(motor);
-    else if (motor->pid.pos_error < 10) backrward(motor);
+        printf("%d ticks, %d err, %d sp\n ", encoder, motor->pid.pos_error, motor->pid.pos_setpoint);
+    }
+    else if (motor->pid.pos_error < -100) backrward(motor);
     else stop(motor);
+    printf("%d \n", motor->pid.duty_cycle);
+    
 }

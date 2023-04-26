@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\pico\challenge_instrument
+CMAKE_SOURCE_DIR = E:\Challenge\challenge_instrument
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\pico\challenge_instrument\build
+CMAKE_BINARY_DIR = E:\Challenge\challenge_instrument\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\pico\challenge_instrument\build\CMakeFiles C:\pico\challenge_instrument\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Challenge\challenge_instrument\build\CMakeFiles E:\Challenge\challenge_instrument\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\pico\challenge_instrument\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Challenge\challenge_instrument\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -207,6 +207,19 @@ picow_tcpip_client_background_encoder_pio_h/fast:
 .PHONY : picow_tcpip_client_background_encoder_pio_h/fast
 
 #=============================================================================
+# Target rules for targets named motor_control
+
+# Build rule for target.
+motor_control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 motor_control
+.PHONY : motor_control
+
+# fast build rule for target.
+motor_control/fast:
+	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/build
+.PHONY : motor_control/fast
+
+#=============================================================================
 # Target rules for targets named ELF2UF2Build
 
 # Build rule for target.
@@ -234,6 +247,7 @@ help:
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 	@echo ... picow_tcpip_client_background_encoder_pio_h
 	@echo ... bs2_default
+	@echo ... motor_control
 	@echo ... picow_tcpip_client_background
 .PHONY : help
 

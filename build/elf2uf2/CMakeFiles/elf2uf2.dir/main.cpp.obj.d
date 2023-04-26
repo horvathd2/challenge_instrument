@@ -1,113 +1,80 @@
-CMakeFiles/elf2uf2.dir/main.cpp.obj: \
- C:\pico\pico-sdk\tools\elf2uf2\main.cpp \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdio \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\cpu_defines.h \
- c:\mingw\include\stdio.h c:\mingw\include\_mingw.h \
- c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
- c:\mingw\include\sdkddkver.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
- c:\mingw\include\sys/types.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\map \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\functexcept.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_defines.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\cpp_type_traits.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\type_traits.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\numeric_traits.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\move.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\concept_check.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\type_traits \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_types.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_funcs.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\debug\assertions.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ptr_traits.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\debug\debug.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\predefined_ops.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++allocator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\new \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\exception \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_lockfree_defines.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\nested_exception.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\memoryfwd.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_function.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\backward\binders.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\alloc_traits.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\alloc_traits.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_map.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\initializer_list \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\tuple \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\utility \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_relops.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\array \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stdexcept \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stringfwd.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cwchar \
- c:\mingw\include\wchar.h c:\mingw\include\wctype.h \
- c:\mingw\include\sys\types.h c:\mingw\include\stdio.h \
- c:\mingw\include\stdlib.h c:\mingw\include\direct.h \
- c:\mingw\include\sys/stat.h c:\mingw\include\io.h \
- c:\mingw\include\stdint.h c:\mingw\include\time.h \
- c:\mingw\include\locale.h c:\mingw\include\process.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdint \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdint.h \
- c:\mingw\include\stdint.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\localefwd.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++locale.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\clocale \
- c:\mingw\include\locale.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iosfwd \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cctype \
- c:\mingw\include\ctype.h c:\mingw\include\wctype.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream_insert.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\cxxabi_forced.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\range_access.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\atomicity.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\gthr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\gthr-default.h \
- c:\mingw\include\errno.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\atomic_word.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\string_conversions.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdlib \
- c:\mingw\include\stdlib.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cerrno \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\functional_hash.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hash_bytes.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\set \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_set.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multiset.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstring \
- c:\mingw\include\string.h c:\mingw\include\strings.h \
- c:\mingw\include\wchar.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdarg \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\algorithm \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algo.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\algorithmfwd.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_heap.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tempbuf.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uniform_int_dist.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\limits \
- C:/pico/pico-sdk/src/common/boot_uf2/include/boot/uf2.h \
- c:\mingw\include\assert.h C:\pico\pico-sdk\tools\elf2uf2\elf.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/cstdio
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/yvals_core.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/vcruntime.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/sal.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/concurrencysal.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/vadefs.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/xkeycheck.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/stdio.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_wstdio.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_stdio_config.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/map
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/tuple
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/__msvc_iter_core.hpp
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/utility
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/type_traits
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/cstdint
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/stdint.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/xstddef
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/cstddef
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/stddef.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/xtr1common
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/cstdlib
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/math.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_math.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/stdlib.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_malloc.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_search.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_wstdlib.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/limits.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/initializer_list
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/xtree
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/xmemory
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/limits
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/cfloat
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/float.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/climits
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/cwchar
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/wchar.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_memcpy_s.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/errno.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/vcruntime_string.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_wconio.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_wctype.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_wdirect.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_wio.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_share.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_wprocess.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_wstring.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_wtime.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/sys/stat.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/sys/types.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/intrin0.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/intrin0.inl.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/isa_availability.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/new
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/exception
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/yvals.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/crtdbg.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/vcruntime_new_debug.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/vcruntime_new.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/crtdefs.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/use_ansi.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/malloc.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/vcruntime_exception.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/eh.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_terminate.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/xatomic.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/xutility
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/cstring
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/string.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/corecrt_memory.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/set
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/vector
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/cstdarg
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/stdarg.h
+C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/include/algorithm
+C:/Pico/pico-sdk/src/common/boot_uf2/include/boot/uf2.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.22000.0/ucrt/assert.h
+C:/Pico/pico-sdk/tools/elf2uf2/elf.h

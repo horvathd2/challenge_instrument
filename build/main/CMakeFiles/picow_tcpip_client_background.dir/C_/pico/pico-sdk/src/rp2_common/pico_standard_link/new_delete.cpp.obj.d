@@ -1,5 +1,5 @@
-main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: \
- C:\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp \
+main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: \
+ C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\cstdlib \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\c++config.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\os_defines.h \

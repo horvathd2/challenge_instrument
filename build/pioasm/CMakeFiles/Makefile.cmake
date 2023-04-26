@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "C:/Pico/pico-sdk/tools/pioasm/CMakeLists.txt"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompiler.cmake.in"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
@@ -18,7 +19,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineRCCompiler.cmake"
-  "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
@@ -28,7 +28,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCCompiler.cmake.in"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake"
-  "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystem.cmake.in"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake"
@@ -50,9 +49,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
-  "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
-  "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake"
-  "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/GNU.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
@@ -60,7 +56,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
+  "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+  "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
@@ -77,16 +75,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-Determine-CXX.cmake"
-  "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
-  "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake"
-  "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake"
-  "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-windres.cmake"
+  "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake"
+  "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake"
-  "CMakeFiles/3.26.0-rc6/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.26.0-rc6/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.26.0-rc6/CMakeSystem.cmake"
-  "C:/pico/pico-sdk/tools/pioasm/CMakeLists.txt"
+  "CMakeFiles/3.26.0/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.26.0/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.26.0/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:
@@ -97,10 +92,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.26.0-rc6/CMakeSystem.cmake"
-  "CMakeFiles/3.26.0-rc6/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.26.0-rc6/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.26.0-rc6/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.26.0/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.26.0/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.26.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

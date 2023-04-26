@@ -24,6 +24,9 @@
 #include "lwip/tcp.h"
 
 #include "encoder.pio.h"
+#include "motor_control.c"
+
+
 #define DEBUGG "nigger"
 #define WIFI_SSID "Holo"
 #define WIFI_PASSWORD "Q1w2e3r4t5y6!"

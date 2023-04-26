@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "pico/stdlib.h"
 #include "hardware/sync.h"
+#include "hardware/pwm.h"
+#include "hardware/timer.h"
 
 #define CLKDIV 256.0f
 #define PWM_WRAP 9804
@@ -75,8 +77,8 @@ void init_motor_pwm(struct Motor *motor, uint pin, int frequency){
     motor->pwm.pin = pin;                                   
     gpio_set_function(motor->pwm.pin, GPIO_FUNC_PWM);                           // set pin function
 
-    motor->pwm.slice_num = pwm_gpio_to_slice_num(motor->pwm.pin);               // get pwm slice from gpio
-    motor->pwm.channel = pwm_gpio_to_channel(motor->pwm.pin);                   // get pwm channel of the pin (1/2)
+    motor->pwm.slice_num = pwm_gpio_to_slice_num(pin);               // get pwm slice from gpio
+    motor->pwm.channel = pwm_gpio_to_channel(pin);                   // get pwm channel of the pin (1/2)
 
     pwm_set_clkdiv(motor->pwm.slice_num, CLKDIV);                               // set clock div
     pwm_set_wrap(motor->pwm.slice_num, PWM_WRAP);                               // set pwm wrap
@@ -89,28 +91,28 @@ void init_motor_pwm(struct Motor *motor, uint pin, int frequency){
  * @brief inline function used by a pinter function, to move the motors, at a set speed taken from the motors struct
  * @param motor the motor that will move
 */
-inline static void forward(struct Motor motor){
-    gpio_put(motor.fwdPin,1);
-    gpio_put(motor.bwdPin,0);
-    pwm_set_chan_level(motor.pwm.slice_num, motor.pwm.channel, motor.pid.duty_cycle);
+inline static void forward(struct Motor *motor){
+    gpio_put(motor->fwdPin,1);
+    gpio_put(motor->bwdPin,0);
+    pwm_set_chan_level(motor->pwm.slice_num, motor->pwm.channel, motor->pid.duty_cycle);
 }
 /**
  * @brief inline static function used by a function pointer, that reverses the motors
  * @param motor the motor in question
 */
-inline static void backrward(struct Motor motor){
-    gpio_put(motor.fwdPin,0);
-    gpio_put(motor.bwdPin,1);
-    pwm_set_chan_level(motor.pwm.slice_num, motor.pwm.channel, motor.pid.duty_cycle);
+inline static void backrward(struct Motor *motor){
+    gpio_put(motor->fwdPin,0);
+    gpio_put(motor->bwdPin,1);
+    pwm_set_chan_level(motor->pwm.slice_num, motor->pwm.channel, motor->pid.duty_cycle);
 }
 /**
  * @brief inline static function used by function pointer, that stops the motor
  * @param motor the motor inb question
 */
-inline static void stop(struct Motor motor){
-    gpio_put(motor.fwdPin,0);
-    gpio_put(motor.bwdPin,0);
-    pwm_set_chan_level(motor.pwm.slice_num,motor.pwm.channel,0);
+inline static void stop(struct Motor *motor){
+    gpio_put(motor->fwdPin,0);
+    gpio_put(motor->bwdPin,0);
+    pwm_set_chan_level(motor->pwm.slice_num,motor->pwm.channel,0);
 }
 /**
  * @brief update function, needs to be called from main methon for each motor, it requires encoder ticks
@@ -149,41 +151,34 @@ bool motor_stop_cond(struct Motor motor){
     return (motor.pid.pos_error < 10) || (motor.pid.current_pos >= motor.pid.limit);
 }
 /**
- * @brief function to move the motors by @tparam delta amount of ticks in the chosen direction, used for manual control, 
- * @param motor the motor ( @struct struct Motor)
- * @param posotion_sp position setpoint for the motor
- * @param action function pointer @addindex @tparam forward() @addindex @tparam backward() @addindex @tparam stop())
+ * @brief function to move the motors by delta amount of ticks in the chosen direction, used for manual control, 
+ * @param motor the motor  @struct struct Motor
+ * @param posotion_delta position setpoint for the motor, passed by pointer
+ * @param action function pointer @addindex @tparam forward() - forward function @addindex @tparam backward() - backward function @addindex @tparam stop() - stop function
  * @param encoder encoder ticks from PIO
 */
-void move_motor_inc(struct Motor *motor,uint32_t position_delta,  void (*action)(struct Motor), uint encoder){
+void move_motor_inc(struct Motor *motor,uint32_t *position_delta,  void (*action)(struct Motor), uint encoder){
     
-    compute_duty(&motor);
+    compute_duty(motor);
     (*action)(*motor);
-    if(abs(motor->pid.pos_error)>=position_delta){ 
-        stop(*motor); 
-        set_motor_sp(&motor,motor->pid.current_pos);
+    if(abs(motor->pid.pos_error)> *position_delta){ 
+        stop(motor); 
+        set_motor_sp(motor,motor->pid.current_pos);
+        *position_delta = 0;
     }
-    else update_error(&motor, encoder);     
+    else update_error(motor, encoder);     
 }
-
-void move_motor_abs(struct Motor *motor, uint32_t abs_pos){
-
-}
-
-
-struct Motor init_motor(uint8_t fwdPin, uint8_t bwdPin, uint encoderAB){
-   
-    // initialize motor components
-    struct Motor motor;
-    motor.fwdPin = fwdPin;
-    motor.bwdPin = bwdPin;
-    motor.encoderAB = encoderAB;
-
-    // initialize pins
-    gpio_init(fwdPin);
-    gpio_init(bwdPin);
-    gpio_set_dir(fwdPin, true);
-    gpio_set_dir(bwdPin, false);
-
-    return motor;
+/**
+ * @brief absolute control for the motors
+ * @param motor mtor strcuture variable
+ * @param abs_pos absolute position [ticks]
+ * @param encoder encoder ticks[ticks]
+*/
+void move_motor_abs(struct Motor *motor, uint32_t abs_pos,int encoder){
+    set_motor_sp(motor,abs_pos);
+    update_error(motor,encoder);
+    if(motor->pid.pos_error > 10)
+        forward(motor);
+    else if (motor->pid.pos_error < 10) backrward(motor);
+    else stop(motor);
 }

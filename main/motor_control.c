@@ -7,7 +7,7 @@
 
 #define CLKDIV 256.0f
 #define PWM_WRAP 9804
-
+#define MIN_POS_DELTA 100
 struct PWM{
     uint pin;
     uint slice_num;
@@ -30,6 +30,8 @@ struct Motor{
     struct PWM pwm;
     struct PID pid; 
 };
+
+
 /**
  * @brief motor initialization functiuon
  * @param fwdPin forward pin to driver 
@@ -38,7 +40,7 @@ struct Motor{
  * @param pwm_pin pin for pwm to driver, pins are in pairs doe to slices
  * @return motor structure
 */
-struct Motor init_motor(int fwdPin, int bwdPin, int encoderAB){
+struct Motor init_motor(const int fwdPin,const int bwdPin,const int encoderAB){
    
     // initialize motor components
     struct Motor motor;
@@ -61,7 +63,7 @@ struct Motor init_motor(int fwdPin, int bwdPin, int encoderAB){
  * @param critical_delta critical error, at wich the PID will slope down
  * @param limit rotational limit of the motor
 */
-void init_PID(struct Motor *motor,uint32_t critical_delta, uint32_t limit){
+void init_PID(struct Motor *motor,const int critical_delta, const int limit){
     motor->pid.critical_delta = critical_delta;
     motor->pid.limit = limit;
 }
@@ -72,7 +74,7 @@ void init_PID(struct Motor *motor,uint32_t critical_delta, uint32_t limit){
  * @param pin the pwm pin (must be in pairs) that leads to the driver
  * @param frequency the frequency of the pwm duty cycle [0 - 9804]
 */
-void init_motor_pwm(struct Motor *motor, int pin, int frequency){
+void init_motor_pwm(struct Motor *motor,const int pin, const int frequency){
 
     motor->pwm.pin = pin;                                   
     gpio_set_function(motor->pwm.pin, GPIO_FUNC_PWM);                           // set pin function
@@ -91,8 +93,8 @@ void init_motor_pwm(struct Motor *motor, int pin, int frequency){
  * @brief inline function used by a pinter function, to move the motors, at a set speed taken from the motors struct
  * @param motor the motor that will move
 */
-inline static void forward(struct Motor *motor){
-    printf("moving fed\n");
+inline static void forward(const struct Motor *motor){
+    printf("moving fwd\n");
     gpio_put(motor->fwdPin,1);
     gpio_put(motor->bwdPin,0);
     pwm_set_chan_level(motor->pwm.slice_num, motor->pwm.channel, motor->pid.duty_cycle);
@@ -101,7 +103,7 @@ inline static void forward(struct Motor *motor){
  * @brief inline static function used by a function pointer, that reverses the motors
  * @param motor the motor in question
 */
-inline static void backrward(struct Motor *motor){
+inline static void backrward(const struct Motor *motor){
     printf("movin bwd\n");
     gpio_put(motor->fwdPin,0);
     gpio_put(motor->bwdPin,1);
@@ -111,18 +113,18 @@ inline static void backrward(struct Motor *motor){
  * @brief inline static function used by function pointer, that stops the motor
  * @param motor the motor inb question
 */
-inline static void stop(struct Motor *motor){
+inline static void stop(const struct Motor *motor){
     gpio_put(motor->fwdPin,0);
     gpio_put(motor->bwdPin,0);
     pwm_set_chan_level(motor->pwm.slice_num,motor->pwm.channel,0);
-    printf("im on dtyop\n");
+    printf("im on stop\n");
 }
 /**
  * @brief update function, needs to be called from main methon for each motor, it requires encoder ticks
  * @param motor motor in question
  * @param encoder the position of the motor given by encoder ticks
 */
-void update_error(struct Motor *motor, int encoder){
+void update_error(struct Motor *motor,const int encoder){
     motor->pid.current_pos = encoder;
     motor->pid.pos_error = motor->pid.pos_setpoint - encoder;
 }
@@ -131,7 +133,7 @@ void update_error(struct Motor *motor, int encoder){
  * @brief static inline function, that sets the setpoint in the motor structure
  * @param motor the motor who's setpoint will be modified
 */
-static void set_motor_sp(struct Motor *motor, long int SP){
+static void set_motor_sp(struct Motor *motor,const long int SP){
     motor->pid.pos_setpoint = SP;
 }
 
@@ -148,18 +150,22 @@ inline static void compute_duty(struct Motor *motor){
 }
 /**
  * @brief function to detect motor stop conditions
- * @param motor the motor @struct variable\
- * @return @if error < 10 ticks or @if position >= limit 
+ * @param motor the motor struct variable
+ * @return true if motor is in stop condition 
 */
-bool motor_stop_cond(struct Motor motor){
-    return (motor.pid.pos_error < 10) || (motor.pid.current_pos >= motor.pid.limit);
+bool motor_stop_cond(const struct Motor motor){
+    return (motor.pid.pos_error < MIN_POS_DELTA) || (motor.pid.current_pos >= motor.pid.limit) || (motor.pid.current_pos <= (-1)*MIN_POS_DELTA);
 }
 /**
- * @brief function to move the motors by delta amount of ticks in the chosen direction, used for manual control, 
- * @param motor the motor  @struct struct Motor
+ * @brief function to move the motors by delta amount of ticks  
+ * @param motor the motor struct 
  * @param posotion_delta position setpoint for the motor, passed by pointer
- * @param action function pointer @addindex @tparam forward() - forward function @addindex @tparam backward() - backward function @addindex @tparam stop() - stop function
+ * @param action function pointer 
+ * @tparam forward()  - action function
+ * @tparam backward()  - action function 
+ * @tparam stop()  - action function
  * @param encoder encoder ticks from PIO
+ * 
 */
 void move_motor_inc(struct Motor *motor,uint32_t *position_delta,  void (*action)(struct Motor), uint encoder){
     
@@ -179,15 +185,14 @@ void move_motor_inc(struct Motor *motor,uint32_t *position_delta,  void (*action
  * @param encoder encoder ticks[ticks]
 */
 void move_motor_abs(struct Motor *motor, long int abs_pos,int encoder){
-    printf("%d pizda massii 2 \n",abs_pos);
     set_motor_sp(motor,abs_pos);
     update_error(motor,encoder);
     compute_duty(motor);
-    if(motor->pid.pos_error > 100){
+    if(motor->pid.pos_error > MIN_POS_DELTA){
         forward(motor);
         printf("%d ticks, %d err, %d sp\n ", encoder, motor->pid.pos_error, motor->pid.pos_setpoint);
     }
-    else if (motor->pid.pos_error < -100) backrward(motor);
+    else if (motor->pid.pos_error < -MIN_POS_DELTA) backrward(motor);
     else stop(motor);
     printf("%d \n", motor->pid.duty_cycle);
     

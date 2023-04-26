@@ -26,6 +26,11 @@
 #include "encoder.pio.h"
 #include "motor_control.c"
 
+#define PINA(X) (2+2*X)
+#define PINB(X) (3+2*X)
+#define PWM_PIN(X) (X)
+#define ENC_PIN(X) (14 + 2*(X-1))
+
 
 #define DEBUGG "nigger"
 #define WIFI_SSID "Holo"
@@ -294,7 +299,7 @@ int main() {
     const uint PIN_IN4A = 10;
     const uint PIN_IN4B = 11; 
 
-    struct Motor motor = init_motor(PIN_IN2A,PIN_IN2B,16);
+    struct Motor motor = init_motor(PINA(1),PINB(1),ENC_PIN(1));
     init_motor_pwm(&motor,0,9804/2);
     init_PID(&motor,1000,30000);
 

@@ -28,7 +28,7 @@
 
 #define PINA(X) (2+2*X)
 #define PINB(X) (3+2*X)
-#define PWM_PIN(X) (X)
+#define PWM_PIN(X) (X-1)
 #define ENC_PIN(X) (14 + 2*(X-1))
 
 
@@ -301,7 +301,7 @@ int main() {
 
     struct Motor motor = init_motor(PINA(2),PINB(2),ENC_PIN(2));
     init_motor_pwm(&motor,0,9804/2);
-    init_PID(&motor,1000,30000);
+    init_PID(&motor,500,30000);
 
     while(1){
         if(is_spin_locked(spinlock)){
@@ -332,9 +332,8 @@ int main() {
         delta4 = new_value4 - old_value4;
         old_value4 = new_value4;
         */
-       long int fututi_mortii_pizdii_pulii_pizdii_ma_tii_lu_ma_ta = 3500;
-       printf("%d pizda masii 1 \n",fututi_mortii_pizdii_pulii_pizdii_ma_tii_lu_ma_ta);
-        move_motor_abs(&motor,fututi_mortii_pizdii_pulii_pizdii_ma_tii_lu_ma_ta, new_value3);
+
+        move_motor_abs(&motor, 900, new_value3);
 
         printf("___________________\nposition 1 %8d|\n", new_value3);
         /*

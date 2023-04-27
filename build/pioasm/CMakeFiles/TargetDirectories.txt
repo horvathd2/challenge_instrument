@@ -1,3 +1,0 @@
-E:/Challenge/challenge_instrument/build/pioasm/CMakeFiles/pioasm.dir
-E:/Challenge/challenge_instrument/build/pioasm/CMakeFiles/edit_cache.dir
-E:/Challenge/challenge_instrument/build/pioasm/CMakeFiles/rebuild_cache.dir

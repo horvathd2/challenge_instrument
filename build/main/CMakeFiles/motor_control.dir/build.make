@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Challenge\challenge_instrument
+CMAKE_SOURCE_DIR = C:\pico\challenge_instrument-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Challenge\challenge_instrument\build
+CMAKE_BINARY_DIR = C:\pico\challenge_instrument-1\build
 
 # Include any dependencies generated for this target.
 include main/CMakeFiles/motor_control.dir/depend.make
@@ -69,783 +69,783 @@ include main/CMakeFiles/motor_control.dir/progress.make
 include main/CMakeFiles/motor_control.dir/flags.make
 
 main/CMakeFiles/motor_control.dir/motor_control.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/motor_control.c.obj: E:/Challenge/challenge_instrument/main/motor_control.c
+main/CMakeFiles/motor_control.dir/motor_control.c.obj: C:/pico/challenge_instrument-1/main/motor_control.c
 main/CMakeFiles/motor_control.dir/motor_control.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/CMakeFiles/motor_control.dir/motor_control.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/motor_control.c.obj -MF CMakeFiles\motor_control.dir\motor_control.c.obj.d -o CMakeFiles\motor_control.dir\motor_control.c.obj -c E:\Challenge\challenge_instrument\main\motor_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/CMakeFiles/motor_control.dir/motor_control.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/motor_control.c.obj -MF CMakeFiles\motor_control.dir\motor_control.c.obj.d -o CMakeFiles\motor_control.dir\motor_control.c.obj -c C:\pico\challenge_instrument-1\main\motor_control.c
 
 main/CMakeFiles/motor_control.dir/motor_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/motor_control.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Challenge\challenge_instrument\main\motor_control.c > CMakeFiles\motor_control.dir\motor_control.c.i
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\challenge_instrument-1\main\motor_control.c > CMakeFiles\motor_control.dir\motor_control.c.i
 
 main/CMakeFiles/motor_control.dir/motor_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/motor_control.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Challenge\challenge_instrument\main\motor_control.c -o CMakeFiles\motor_control.dir\motor_control.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: C:/Pico/pico-sdk/src/common/pico_sync/sem.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\sem.c.obj -c C:\Pico\pico-sdk\src\common\pico_sync\sem.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\common\pico_sync\sem.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\sem.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\common\pico_sync\sem.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\sem.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: C:/Pico/pico-sdk/src/common/pico_sync/lock_core.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c C:\Pico\pico-sdk\src\common\pico_sync\lock_core.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\common\pico_sync\lock_core.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\common\pico_sync\lock_core.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: C:/Pico/pico-sdk/src/common/pico_sync/mutex.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c C:\Pico\pico-sdk\src\common\pico_sync\mutex.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\common\pico_sync\mutex.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\mutex.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\common\pico_sync\mutex.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\mutex.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: C:/Pico/pico-sdk/src/common/pico_sync/critical_section.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c C:\Pico\pico-sdk\src\common\pico_sync\critical_section.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\common\pico_sync\critical_section.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\common\pico_sync\critical_section.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj: C:/Pico/pico-sdk/src/common/pico_time/time.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_time\time.c.obj -c C:\Pico\pico-sdk\src\common\pico_time\time.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\common\pico_time\time.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_time\time.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\common\pico_time\time.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_time\time.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: C:/Pico/pico-sdk/src/common/pico_time/timeout_helper.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\Pico\pico-sdk\src\common\pico_time\timeout_helper.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\common\pico_time\timeout_helper.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\common\pico_time\timeout_helper.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: C:/Pico/pico-sdk/src/common/pico_util/datetime.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\Pico\pico-sdk\src\common\pico_util\datetime.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\common\pico_util\datetime.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\datetime.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\common\pico_util\datetime.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\datetime.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: C:/Pico/pico-sdk/src/common/pico_util/pheap.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\Pico\pico-sdk\src\common\pico_util\pheap.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\common\pico_util\pheap.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\pheap.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\common\pico_util\pheap.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\pheap.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj: C:/Pico/pico-sdk/src/common/pico_util/queue.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\queue.c.obj -c C:\Pico\pico-sdk\src\common\pico_util\queue.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\common\pico_util\queue.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\queue.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\common\pico_util\queue.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\common\pico_util\queue.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: C:/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.s
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: main/CMakeFiles/motor_control.dir/flags.make
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj.d -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c > CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.i
-
-main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
-	cd /d E:\Challenge\challenge_instrument\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c -o CMakeFiles\motor_control.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\challenge_instrument-1\main\motor_control.c -o CMakeFiles\motor_control.dir\motor_control.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_platform\platform.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_platform\platform.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_platform\platform.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: C:/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c C:\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj: C:/pico/pico-sdk/src/common/pico_sync/sem.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.obj -c C:\pico\pico-sdk\src\common\pico_sync\sem.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\common\pico_sync\sem.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\common\pico_sync\sem.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: C:/pico/pico-sdk/src/common/pico_sync/lock_core.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c C:\pico\pico-sdk\src\common\pico_sync\lock_core.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\common\pico_sync\lock_core.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\common\pico_sync\lock_core.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: C:/pico/pico-sdk/src/common/pico_sync/mutex.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c C:\pico\pico-sdk\src\common\pico_sync\mutex.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\common\pico_sync\mutex.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\common\pico_sync\mutex.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: C:/pico/pico-sdk/src/common/pico_sync/critical_section.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c C:\pico\pico-sdk\src\common\pico_sync\critical_section.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\common\pico_sync\critical_section.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\common\pico_sync\critical_section.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj: C:/pico/pico-sdk/src/common/pico_time/time.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.obj -c C:\pico\pico-sdk\src\common\pico_time\time.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\common\pico_time\time.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\common\pico_time\time.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: C:/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\pico\pico-sdk\src\common\pico_time\timeout_helper.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\common\pico_time\timeout_helper.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\common\pico_time\timeout_helper.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj: C:/pico/pico-sdk/src/common/pico_util/datetime.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\pico\pico-sdk\src\common\pico_util\datetime.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\common\pico_util\datetime.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\common\pico_util\datetime.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj: C:/pico/pico-sdk/src/common/pico_util/pheap.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\pico\pico-sdk\src\common\pico_util\pheap.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\common\pico_util\pheap.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\common\pico_util\pheap.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj: C:/pico/pico-sdk/src/common/pico_util/queue.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.obj -c C:\pico\pico-sdk\src\common\pico_util\queue.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\common\pico_util\queue.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\common\pico_util\queue.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: C:/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: C:/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: C:/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_divider\divider.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_divider\divider.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_divider\divider.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: C:/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_math.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_double\double_math.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_math.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: C:/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: C:/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: C:/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_math.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_float\float_math.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_math.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: C:/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: C:/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: C:/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: C:/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c C:\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: C:/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.s
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: main/CMakeFiles/motor_control.dir/flags.make
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: C:/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: main/CMakeFiles/motor_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj.d -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c > CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.i
+
+main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	cd /d C:\pico\challenge_instrument-1\build\main && C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c -o CMakeFiles\motor_control.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
 
 # Object files for target motor_control
 motor_control_OBJECTS = \
 "CMakeFiles/motor_control.dir/motor_control.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
-"CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
+"CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 
 # External object files for target motor_control
 motor_control_EXTERNAL_OBJECTS =
 
 main/libmotor_control.a: main/CMakeFiles/motor_control.dir/motor_control.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+main/libmotor_control.a: main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 main/libmotor_control.a: main/CMakeFiles/motor_control.dir/build.make
 main/libmotor_control.a: main/CMakeFiles/motor_control.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX static library libmotor_control.a"
-	cd /d E:\Challenge\challenge_instrument\build\main && $(CMAKE_COMMAND) -P CMakeFiles\motor_control.dir\cmake_clean_target.cmake
-	cd /d E:\Challenge\challenge_instrument\build\main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\motor_control.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX static library libmotor_control.a"
+	cd /d C:\pico\challenge_instrument-1\build\main && $(CMAKE_COMMAND) -P CMakeFiles\motor_control.dir\cmake_clean_target.cmake
+	cd /d C:\pico\challenge_instrument-1\build\main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\motor_control.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 main/CMakeFiles/motor_control.dir/build: main/libmotor_control.a
 .PHONY : main/CMakeFiles/motor_control.dir/build
 
 main/CMakeFiles/motor_control.dir/clean:
-	cd /d E:\Challenge\challenge_instrument\build\main && $(CMAKE_COMMAND) -P CMakeFiles\motor_control.dir\cmake_clean.cmake
+	cd /d C:\pico\challenge_instrument-1\build\main && $(CMAKE_COMMAND) -P CMakeFiles\motor_control.dir\cmake_clean.cmake
 .PHONY : main/CMakeFiles/motor_control.dir/clean
 
 main/CMakeFiles/motor_control.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Challenge\challenge_instrument E:\Challenge\challenge_instrument\main E:\Challenge\challenge_instrument\build E:\Challenge\challenge_instrument\build\main E:\Challenge\challenge_instrument\build\main\CMakeFiles\motor_control.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\pico\challenge_instrument-1 C:\pico\challenge_instrument-1\main C:\pico\challenge_instrument-1\build C:\pico\challenge_instrument-1\build\main C:\pico\challenge_instrument-1\build\main\CMakeFiles\motor_control.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : main/CMakeFiles/motor_control.dir/depend
 

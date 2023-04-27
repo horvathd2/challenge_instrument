@@ -1,5 +1,5 @@
-E:/Challenge/challenge_instrument/build/elf2uf2/CMakeFiles/elf2uf2.dir
-E:/Challenge/challenge_instrument/build/elf2uf2/CMakeFiles/edit_cache.dir
-E:/Challenge/challenge_instrument/build/elf2uf2/CMakeFiles/rebuild_cache.dir
-E:/Challenge/challenge_instrument/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
-E:/Challenge/challenge_instrument/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
+C:/pico/challenge_instrument-1/build/elf2uf2/CMakeFiles/elf2uf2.dir
+C:/pico/challenge_instrument-1/build/elf2uf2/CMakeFiles/edit_cache.dir
+C:/pico/challenge_instrument-1/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+C:/pico/challenge_instrument-1/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+C:/pico/challenge_instrument-1/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

@@ -7,8 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/Pico/pico-sdk/src/common/boot_uf2/CMakeLists.txt"
-  "C:/Pico/pico-sdk/tools/elf2uf2/CMakeLists.txt"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake"
@@ -24,6 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineRCCompiler.cmake"
+  "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
@@ -33,6 +32,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCCompiler.cmake.in"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake"
+  "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystem.cmake.in"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake"
@@ -101,10 +101,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake"
-  "CMakeFiles/3.26.0/CMakeCCompiler.cmake"
-  "CMakeFiles/3.26.0/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.26.0/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.26.0/CMakeSystem.cmake"
+  "CMakeFiles/3.26.0-rc6/CMakeCCompiler.cmake"
+  "CMakeFiles/3.26.0-rc6/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.26.0-rc6/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.26.0-rc6/CMakeSystem.cmake"
+  "C:/pico/pico-sdk/src/common/boot_uf2/CMakeLists.txt"
+  "C:/pico/pico-sdk/tools/elf2uf2/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -115,11 +117,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.26.0/CMakeCCompiler.cmake"
-  "CMakeFiles/3.26.0/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.26.0/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.26.0/CMakeCCompiler.cmake"
-  "CMakeFiles/3.26.0/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.26.0-rc6/CMakeSystem.cmake"
+  "CMakeFiles/3.26.0-rc6/CMakeCCompiler.cmake"
+  "CMakeFiles/3.26.0-rc6/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.26.0-rc6/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.26.0-rc6/CMakeCCompiler.cmake"
+  "CMakeFiles/3.26.0-rc6/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "boot_uf2_headers/CMakeFiles/CMakeDirectoryInformation.cmake"
   )

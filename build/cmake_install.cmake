@@ -1,4 +1,4 @@
-# Install script for directory: E:/Challenge/challenge_instrument
+# Install script for directory: C:/pico/challenge_instrument-1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/Challenge/challenge_instrument/build/pico-sdk/cmake_install.cmake")
-  include("E:/Challenge/challenge_instrument/build/main/cmake_install.cmake")
+  include("C:/pico/challenge_instrument-1/build/pico-sdk/cmake_install.cmake")
+  include("C:/pico/challenge_instrument-1/build/main/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Challenge/challenge_instrument/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/pico/challenge_instrument-1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Challenge\challenge_instrument
+CMAKE_SOURCE_DIR = C:\pico\challenge_instrument-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Challenge\challenge_instrument\build
+CMAKE_BINARY_DIR = C:\pico\challenge_instrument-1\build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -75,45 +75,45 @@ main/CMakeFiles/ELF2UF2Build-complete: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2U
 main/CMakeFiles/ELF2UF2Build-complete: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 main/CMakeFiles/ELF2UF2Build-complete: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 main/CMakeFiles/ELF2UF2Build-complete: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Challenge/challenge_instrument/build/main/CMakeFiles
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Challenge/challenge_instrument/build/main/CMakeFiles/ELF2UF2Build-complete
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Challenge/challenge_instrument/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/pico/challenge_instrument-1/build/main/CMakeFiles
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/pico/challenge_instrument-1/build/main/CMakeFiles/ELF2UF2Build-complete
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/pico/challenge_instrument-1/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
-	cd /d E:\Challenge\challenge_instrument\build\elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
+	cd /d C:\pico\challenge_instrument-1\build\elf2uf2 && $(MAKE)
 
 main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: main/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd /d E:\Challenge\challenge_instrument\build\elf2uf2 && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MAKE_PROGRAM:FILEPATH=C:/MinGW/bin/mingw32-make.exe "-GMinGW Makefiles" -S C:/Pico/pico-sdk/tools/elf2uf2 -B E:/Challenge/challenge_instrument/build/elf2uf2
-	cd /d E:\Challenge\challenge_instrument\build\elf2uf2 && "C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Challenge/challenge_instrument/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
+	cd /d C:\pico\challenge_instrument-1\build\elf2uf2 && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MAKE_PROGRAM:FILEPATH=C:/MinGW/bin/mingw32-make.exe "-GMinGW Makefiles" -S C:/pico/pico-sdk/tools/elf2uf2 -B C:/pico/challenge_instrument-1/build/elf2uf2
+	cd /d C:\pico\challenge_instrument-1\build\elf2uf2 && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/pico/challenge_instrument-1/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt
 main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Challenge/challenge_instrument/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/pico/challenge_instrument-1/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
-	cd /d E:\Challenge\challenge_instrument\build\elf2uf2 && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
+	cd /d C:\pico\challenge_instrument-1\build\elf2uf2 && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 
 main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir= -P E:/Challenge/challenge_instrument/build/main/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Challenge/challenge_instrument/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir= -P C:/pico/challenge_instrument-1/build/main/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/pico/challenge_instrument-1/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Challenge/challenge_instrument/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/pico/challenge_instrument-1/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d E:\Challenge\challenge_instrument\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Challenge/challenge_instrument/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\pico\challenge_instrument-1\build\main && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/pico/challenge_instrument-1/build/main/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 ELF2UF2Build: main/CMakeFiles/ELF2UF2Build
 ELF2UF2Build: main/CMakeFiles/ELF2UF2Build-complete
@@ -132,10 +132,10 @@ main/CMakeFiles/ELF2UF2Build.dir/build: ELF2UF2Build
 .PHONY : main/CMakeFiles/ELF2UF2Build.dir/build
 
 main/CMakeFiles/ELF2UF2Build.dir/clean:
-	cd /d E:\Challenge\challenge_instrument\build\main && $(CMAKE_COMMAND) -P CMakeFiles\ELF2UF2Build.dir\cmake_clean.cmake
+	cd /d C:\pico\challenge_instrument-1\build\main && $(CMAKE_COMMAND) -P CMakeFiles\ELF2UF2Build.dir\cmake_clean.cmake
 .PHONY : main/CMakeFiles/ELF2UF2Build.dir/clean
 
 main/CMakeFiles/ELF2UF2Build.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Challenge\challenge_instrument E:\Challenge\challenge_instrument\main E:\Challenge\challenge_instrument\build E:\Challenge\challenge_instrument\build\main E:\Challenge\challenge_instrument\build\main\CMakeFiles\ELF2UF2Build.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\pico\challenge_instrument-1 C:\pico\challenge_instrument-1\main C:\pico\challenge_instrument-1\build C:\pico\challenge_instrument-1\build\main C:\pico\challenge_instrument-1\build\main\CMakeFiles\ELF2UF2Build.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : main/CMakeFiles/ELF2UF2Build.dir/depend
 

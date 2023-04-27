@@ -1,4 +1,4 @@
-# Install script for directory: C:/Pico/pico-sdk
+# Install script for directory: C:/pico/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/Challenge/challenge_instrument/build/pico-sdk/tools/cmake_install.cmake")
-  include("E:/Challenge/challenge_instrument/build/pico-sdk/src/cmake_install.cmake")
-  include("E:/Challenge/challenge_instrument/build/pico-sdk/docs/cmake_install.cmake")
+  include("C:/pico/challenge_instrument-1/build/pico-sdk/tools/cmake_install.cmake")
+  include("C:/pico/challenge_instrument-1/build/pico-sdk/src/cmake_install.cmake")
+  include("C:/pico/challenge_instrument-1/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

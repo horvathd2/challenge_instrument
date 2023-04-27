@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Challenge\challenge_instrument
+CMAKE_SOURCE_DIR = C:\pico\challenge_instrument-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Challenge\challenge_instrument\build
+CMAKE_BINARY_DIR = C:\pico\challenge_instrument-1\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\Challenge\challenge_instrument\build && $(CMAKE_COMMAND) -E cmake_progress_start E:\Challenge\challenge_instrument\build\CMakeFiles E:\Challenge\challenge_instrument\build\pico-sdk\src\\CMakeFiles\progress.marks
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Challenge\challenge_instrument\build\CMakeFiles 0
+	cd /d C:\pico\challenge_instrument-1\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\pico\challenge_instrument-1\build\CMakeFiles C:\pico\challenge_instrument-1\build\pico-sdk\src\\CMakeFiles\progress.marks
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\pico\challenge_instrument-1\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/clean
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,17 +102,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/preinstall
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/preinstall
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\Challenge\challenge_instrument\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\pico\challenge_instrument-1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -134,6 +134,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\Challenge\challenge_instrument\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\pico\challenge_instrument-1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

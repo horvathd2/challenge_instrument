@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Challenge\challenge_instrument
+CMAKE_SOURCE_DIR = C:\pico\challenge_instrument-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Challenge\challenge_instrument\build
+CMAKE_BINARY_DIR = C:\pico\challenge_instrument-1\build
 
 # Utility rule file for bs2_default_padded_checksummed_asm.
 
@@ -68,12 +68,12 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checks
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd /d E:\Challenge\challenge_instrument\build\pico-sdk\src\rp2_common\boot_stage2 && "C:\Users\Iakab Stefan\AppData\Local\Programs\Python\Python311\python.exe" C:/Pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff E:/Challenge/challenge_instrument/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin E:/Challenge/challenge_instrument/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd /d C:\pico\challenge_instrument-1\build\pico-sdk\src\rp2_common\boot_stage2 && "C:\Users\Daniel Horvath\AppData\Local\Programs\Python\Python311\python.exe" C:/pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff C:/pico/challenge_instrument-1/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin C:/pico/challenge_instrument-1/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd /d E:\Challenge\challenge_instrument\build\pico-sdk\src\rp2_common\boot_stage2 && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary E:/Challenge/challenge_instrument/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf E:/Challenge/challenge_instrument/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd /d C:\pico\challenge_instrument-1\build\pico-sdk\src\rp2_common\boot_stage2 && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary C:/pico/challenge_instrument-1/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf C:/pico/challenge_instrument-1/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -86,10 +86,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_as
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean:
-	cd /d E:\Challenge\challenge_instrument\build\pico-sdk\src\rp2_common\boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles\bs2_default_padded_checksummed_asm.dir\cmake_clean.cmake
+	cd /d C:\pico\challenge_instrument-1\build\pico-sdk\src\rp2_common\boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles\bs2_default_padded_checksummed_asm.dir\cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Challenge\challenge_instrument C:\Pico\pico-sdk\src\rp2_common\boot_stage2 E:\Challenge\challenge_instrument\build E:\Challenge\challenge_instrument\build\pico-sdk\src\rp2_common\boot_stage2 E:\Challenge\challenge_instrument\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\pico\challenge_instrument-1 C:\pico\pico-sdk\src\rp2_common\boot_stage2 C:\pico\challenge_instrument-1\build C:\pico\challenge_instrument-1\build\pico-sdk\src\rp2_common\boot_stage2 C:\pico\challenge_instrument-1\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 

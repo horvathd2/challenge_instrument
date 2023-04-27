@@ -1,4 +1,4 @@
-# Install script for directory: C:/Pico/pico-sdk/src/common/boot_picoboot
+# Install script for directory: C:/pico/pico-sdk/src/common/boot_picoboot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

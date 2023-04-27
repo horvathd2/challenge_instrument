@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Challenge\challenge_instrument
+CMAKE_SOURCE_DIR = C:\pico\challenge_instrument-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Challenge\challenge_instrument\build
+CMAKE_BINARY_DIR = C:\pico\challenge_instrument-1\build
 
 # Utility rule file for picow_tcpip_client_background_encoder_pio_h.
 
@@ -67,9 +67,9 @@ include main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/progress
 
 main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h: main/encoder.pio.h
 
-main/encoder.pio.h: E:/Challenge/challenge_instrument/main/encoder.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\Challenge\challenge_instrument\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating encoder.pio.h"
-	cd /d E:\Challenge\challenge_instrument\build\main && ..\pioasm\pioasm.exe -o c-sdk E:/Challenge/challenge_instrument/main/encoder.pio E:/Challenge/challenge_instrument/build/main/encoder.pio.h
+main/encoder.pio.h: C:/pico/challenge_instrument-1/main/encoder.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\pico\challenge_instrument-1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating encoder.pio.h"
+	cd /d C:\pico\challenge_instrument-1\build\main && ..\pioasm\pioasm.exe -o c-sdk C:/pico/challenge_instrument-1/main/encoder.pio C:/pico/challenge_instrument-1/build/main/encoder.pio.h
 
 picow_tcpip_client_background_encoder_pio_h: main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h
 picow_tcpip_client_background_encoder_pio_h: main/encoder.pio.h
@@ -81,10 +81,10 @@ main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/build: picow_tcp
 .PHONY : main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/build
 
 main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/clean:
-	cd /d E:\Challenge\challenge_instrument\build\main && $(CMAKE_COMMAND) -P CMakeFiles\picow_tcpip_client_background_encoder_pio_h.dir\cmake_clean.cmake
+	cd /d C:\pico\challenge_instrument-1\build\main && $(CMAKE_COMMAND) -P CMakeFiles\picow_tcpip_client_background_encoder_pio_h.dir\cmake_clean.cmake
 .PHONY : main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/clean
 
 main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Challenge\challenge_instrument E:\Challenge\challenge_instrument\main E:\Challenge\challenge_instrument\build E:\Challenge\challenge_instrument\build\main E:\Challenge\challenge_instrument\build\main\CMakeFiles\picow_tcpip_client_background_encoder_pio_h.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\pico\challenge_instrument-1 C:\pico\challenge_instrument-1\main C:\pico\challenge_instrument-1\build C:\pico\challenge_instrument-1\build\main C:\pico\challenge_instrument-1\build\main\CMakeFiles\picow_tcpip_client_background_encoder_pio_h.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/depend
 

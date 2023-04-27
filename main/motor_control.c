@@ -7,7 +7,7 @@
 
 #define CLKDIV 256.0f
 #define PWM_WRAP 9804
-#define MIN_POS_DELTA 100
+#define MIN_POS_DELTA 10
 struct PWM{
     uint pin;
     uint slice_num;

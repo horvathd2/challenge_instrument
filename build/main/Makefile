@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Challenge\challenge_instrument
+CMAKE_SOURCE_DIR = C:\pico\challenge_instrument-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Challenge\challenge_instrument\build
+CMAKE_BINARY_DIR = C:\pico\challenge_instrument-1\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\Challenge\challenge_instrument\build && $(CMAKE_COMMAND) -E cmake_progress_start E:\Challenge\challenge_instrument\build\CMakeFiles E:\Challenge\challenge_instrument\build\main\\CMakeFiles\progress.marks
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Challenge\challenge_instrument\build\CMakeFiles 0
+	cd /d C:\pico\challenge_instrument-1\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\pico\challenge_instrument-1\build\CMakeFiles C:\pico\challenge_instrument-1\build\main\\CMakeFiles\progress.marks
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\pico\challenge_instrument-1\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/clean
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/preinstall
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/preinstall
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\Challenge\challenge_instrument\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\pico\challenge_instrument-1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 main/CMakeFiles/picow_tcpip_client_background.dir/rule:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/picow_tcpip_client_background.dir/rule
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/picow_tcpip_client_background.dir/rule
 .PHONY : main/CMakeFiles/picow_tcpip_client_background.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ picow_tcpip_client_background: main/CMakeFiles/picow_tcpip_client_background.dir
 
 # fast build rule for target.
 picow_tcpip_client_background/fast:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/build
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/build
 .PHONY : picow_tcpip_client_background/fast
 
 # Convenience name for target.
 main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/rule:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/rule
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/rule
 .PHONY : main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ picow_tcpip_client_background_encoder_pio_h: main/CMakeFiles/picow_tcpip_client_
 
 # fast build rule for target.
 picow_tcpip_client_background_encoder_pio_h/fast:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background_encoder_pio_h.dir\build.make main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/build
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background_encoder_pio_h.dir\build.make main/CMakeFiles/picow_tcpip_client_background_encoder_pio_h.dir/build
 .PHONY : picow_tcpip_client_background_encoder_pio_h/fast
 
 # Convenience name for target.
 main/CMakeFiles/motor_control.dir/rule:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/motor_control.dir/rule
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/motor_control.dir/rule
 .PHONY : main/CMakeFiles/motor_control.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ motor_control: main/CMakeFiles/motor_control.dir/rule
 
 # fast build rule for target.
 motor_control/fast:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/build
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/build
 .PHONY : motor_control/fast
 
 # Convenience name for target.
 main/CMakeFiles/ELF2UF2Build.dir/rule:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/ELF2UF2Build.dir/rule
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main/CMakeFiles/ELF2UF2Build.dir/rule
 .PHONY : main/CMakeFiles/ELF2UF2Build.dir/rule
 
 # Convenience name for target.
@@ -168,4134 +168,4134 @@ ELF2UF2Build: main/CMakeFiles/ELF2UF2Build.dir/rule
 
 # fast build rule for target.
 ELF2UF2Build/fast:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\ELF2UF2Build.dir\build.make main/CMakeFiles/ELF2UF2Build.dir/build
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\ELF2UF2Build.dir\build.make main/CMakeFiles/ELF2UF2Build.dir/build
 .PHONY : ELF2UF2Build/fast
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
-.PHONY : C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.obj: C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.obj
+C_/pico/pico-sdk/lib/lwip/src/api/api_lib.obj: C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_lib.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.i: C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.i
+C_/pico/pico-sdk/lib/lwip/src/api/api_lib.i: C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_lib.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.s: C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.s
+C_/pico/pico-sdk/lib/lwip/src/api/api_lib.s: C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_lib.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.obj: C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.obj
+C_/pico/pico-sdk/lib/lwip/src/api/api_msg.obj: C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_msg.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.i: C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.i
+C_/pico/pico-sdk/lib/lwip/src/api/api_msg.i: C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_msg.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.s: C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.s
+C_/pico/pico-sdk/lib/lwip/src/api/api_msg.s: C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_msg.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/api/err.obj: C_/Pico/pico-sdk/lib/lwip/src/api/err.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/err.obj
+C_/pico/pico-sdk/lib/lwip/src/api/err.obj: C_/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/err.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/api/err.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/err.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/err.c.obj
+C_/pico/pico-sdk/lib/lwip/src/api/err.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/err.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/api/err.i: C_/Pico/pico-sdk/lib/lwip/src/api/err.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/err.i
+C_/pico/pico-sdk/lib/lwip/src/api/err.i: C_/pico/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/err.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/api/err.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/err.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/err.c.i
+C_/pico/pico-sdk/lib/lwip/src/api/err.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/err.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/api/err.s: C_/Pico/pico-sdk/lib/lwip/src/api/err.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/err.s
+C_/pico/pico-sdk/lib/lwip/src/api/err.s: C_/pico/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/err.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/api/err.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/err.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/err.c.s
+C_/pico/pico-sdk/lib/lwip/src/api/err.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/err.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/api/if_api.obj: C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/if_api.obj
+C_/pico/pico-sdk/lib/lwip/src/api/if_api.obj: C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/if_api.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/api/if_api.i: C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/if_api.i
+C_/pico/pico-sdk/lib/lwip/src/api/if_api.i: C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/if_api.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/api/if_api.s: C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/if_api.s
+C_/pico/pico-sdk/lib/lwip/src/api/if_api.s: C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/if_api.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.obj: C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.obj
+C_/pico/pico-sdk/lib/lwip/src/api/netbuf.obj: C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netbuf.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.i: C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.i
+C_/pico/pico-sdk/lib/lwip/src/api/netbuf.i: C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netbuf.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.s: C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.s
+C_/pico/pico-sdk/lib/lwip/src/api/netbuf.s: C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netbuf.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/api/netdb.obj: C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netdb.obj
+C_/pico/pico-sdk/lib/lwip/src/api/netdb.obj: C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netdb.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/api/netdb.i: C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netdb.i
+C_/pico/pico-sdk/lib/lwip/src/api/netdb.i: C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netdb.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/api/netdb.s: C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netdb.s
+C_/pico/pico-sdk/lib/lwip/src/api/netdb.s: C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netdb.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.obj: C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.obj
+C_/pico/pico-sdk/lib/lwip/src/api/netifapi.obj: C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netifapi.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.i: C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.i
+C_/pico/pico-sdk/lib/lwip/src/api/netifapi.i: C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netifapi.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.s: C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.s
+C_/pico/pico-sdk/lib/lwip/src/api/netifapi.s: C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netifapi.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/api/sockets.obj: C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/sockets.obj
+C_/pico/pico-sdk/lib/lwip/src/api/sockets.obj: C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/sockets.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/api/sockets.i: C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/sockets.i
+C_/pico/pico-sdk/lib/lwip/src/api/sockets.i: C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/sockets.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/api/sockets.s: C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/sockets.s
+C_/pico/pico-sdk/lib/lwip/src/api/sockets.s: C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/sockets.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.obj: C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.obj
+C_/pico/pico-sdk/lib/lwip/src/api/tcpip.obj: C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/tcpip.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.i: C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.i
+C_/pico/pico-sdk/lib/lwip/src/api/tcpip.i: C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/tcpip.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.s: C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.s
+C_/pico/pico-sdk/lib/lwip/src/api/tcpip.s: C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/tcpip.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp.obj: C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp.obj
+C_/pico/pico-sdk/lib/lwip/src/core/altcp.obj: C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp.i: C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp.i
+C_/pico/pico-sdk/lib/lwip/src/core/altcp.i: C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp.s: C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp.s
+C_/pico/pico-sdk/lib/lwip/src/core/altcp.s: C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj: C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj: C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i: C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i: C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s: C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s: C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj: C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj: C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i: C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i: C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s: C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s: C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/def.obj: C_/Pico/pico-sdk/lib/lwip/src/core/def.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/def.obj
+C_/pico/pico-sdk/lib/lwip/src/core/def.obj: C_/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/def.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/def.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/def.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/def.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/def.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/def.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/def.i: C_/Pico/pico-sdk/lib/lwip/src/core/def.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/def.i
+C_/pico/pico-sdk/lib/lwip/src/core/def.i: C_/pico/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/def.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/def.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/def.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/def.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/def.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/def.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/def.s: C_/Pico/pico-sdk/lib/lwip/src/core/def.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/def.s
+C_/pico/pico-sdk/lib/lwip/src/core/def.s: C_/pico/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/def.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/def.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/def.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/def.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/def.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/def.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/dns.obj: C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/dns.obj
+C_/pico/pico-sdk/lib/lwip/src/core/dns.obj: C_/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/dns.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/dns.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/dns.i: C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/dns.i
+C_/pico/pico-sdk/lib/lwip/src/core/dns.i: C_/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/dns.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/dns.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/dns.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/dns.s: C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/dns.s
+C_/pico/pico-sdk/lib/lwip/src/core/dns.s: C_/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/dns.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/dns.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/dns.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/dns.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj: C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj
+C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj: C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.i: C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.i
+C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i: C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.s: C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.s
+C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s: C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/init.obj: C_/Pico/pico-sdk/lib/lwip/src/core/init.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/init.obj
+C_/pico/pico-sdk/lib/lwip/src/core/init.obj: C_/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/init.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/init.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/init.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/init.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/init.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/init.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/init.i: C_/Pico/pico-sdk/lib/lwip/src/core/init.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/init.i
+C_/pico/pico-sdk/lib/lwip/src/core/init.i: C_/pico/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/init.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/init.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/init.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/init.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/init.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/init.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/init.s: C_/Pico/pico-sdk/lib/lwip/src/core/init.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/init.s
+C_/pico/pico-sdk/lib/lwip/src/core/init.s: C_/pico/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/init.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/init.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/init.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/init.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/init.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/init.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ip.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ip.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ip.obj: C_/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ip.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ip.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ip.i: C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ip.i
+C_/pico/pico-sdk/lib/lwip/src/core/ip.i: C_/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ip.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ip.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ip.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ip.s: C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ip.s
+C_/pico/pico-sdk/lib/lwip/src/core/ip.s: C_/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ip.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ip.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ip.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ip.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/mem.obj: C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/mem.obj
+C_/pico/pico-sdk/lib/lwip/src/core/mem.obj: C_/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/mem.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/mem.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/mem.i: C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/mem.i
+C_/pico/pico-sdk/lib/lwip/src/core/mem.i: C_/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/mem.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/mem.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/mem.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/mem.s: C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/mem.s
+C_/pico/pico-sdk/lib/lwip/src/core/mem.s: C_/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/mem.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/mem.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/mem.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/mem.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/memp.obj: C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/memp.obj
+C_/pico/pico-sdk/lib/lwip/src/core/memp.obj: C_/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/memp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/memp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/memp.i: C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/memp.i
+C_/pico/pico-sdk/lib/lwip/src/core/memp.i: C_/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/memp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/memp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/memp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/memp.s: C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/memp.s
+C_/pico/pico-sdk/lib/lwip/src/core/memp.s: C_/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/memp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/memp.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/memp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/memp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/netif.obj: C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/netif.obj
+C_/pico/pico-sdk/lib/lwip/src/core/netif.obj: C_/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/netif.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/netif.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/netif.i: C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/netif.i
+C_/pico/pico-sdk/lib/lwip/src/core/netif.i: C_/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/netif.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/netif.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/netif.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/netif.s: C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/netif.s
+C_/pico/pico-sdk/lib/lwip/src/core/netif.s: C_/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/netif.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/netif.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/netif.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/netif.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.obj: C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.obj
+C_/pico/pico-sdk/lib/lwip/src/core/pbuf.obj: C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/pbuf.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.i: C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.i
+C_/pico/pico-sdk/lib/lwip/src/core/pbuf.i: C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/pbuf.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.s: C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.s
+C_/pico/pico-sdk/lib/lwip/src/core/pbuf.s: C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/pbuf.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/raw.obj: C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/raw.obj
+C_/pico/pico-sdk/lib/lwip/src/core/raw.obj: C_/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/raw.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/raw.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/raw.i: C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/raw.i
+C_/pico/pico-sdk/lib/lwip/src/core/raw.i: C_/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/raw.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/raw.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/raw.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/raw.s: C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/raw.s
+C_/pico/pico-sdk/lib/lwip/src/core/raw.s: C_/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/raw.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/raw.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/raw.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/raw.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/stats.obj: C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/stats.obj
+C_/pico/pico-sdk/lib/lwip/src/core/stats.obj: C_/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/stats.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/stats.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/stats.i: C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/stats.i
+C_/pico/pico-sdk/lib/lwip/src/core/stats.i: C_/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/stats.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/stats.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/stats.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/stats.s: C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/stats.s
+C_/pico/pico-sdk/lib/lwip/src/core/stats.s: C_/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/stats.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/stats.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/stats.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/stats.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/sys.obj: C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/sys.obj
+C_/pico/pico-sdk/lib/lwip/src/core/sys.obj: C_/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/sys.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/sys.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/sys.i: C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/sys.i
+C_/pico/pico-sdk/lib/lwip/src/core/sys.i: C_/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/sys.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/sys.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/sys.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/sys.s: C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/sys.s
+C_/pico/pico-sdk/lib/lwip/src/core/sys.s: C_/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/sys.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/sys.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/sys.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/sys.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp.obj: C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp.obj
+C_/pico/pico-sdk/lib/lwip/src/core/tcp.obj: C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp.i: C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp.i
+C_/pico/pico-sdk/lib/lwip/src/core/tcp.i: C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp.s: C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp.s
+C_/pico/pico-sdk/lib/lwip/src/core/tcp.s: C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.obj: C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.obj
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj: C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.i: C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.i
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.i: C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.s: C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.s
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.s: C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.obj: C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.obj
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj: C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.i: C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.i
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.i: C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.s: C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.s
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.s: C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.obj: C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.obj
+C_/pico/pico-sdk/lib/lwip/src/core/timeouts.obj: C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/timeouts.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.i: C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.i
+C_/pico/pico-sdk/lib/lwip/src/core/timeouts.i: C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/timeouts.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.s: C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.s
+C_/pico/pico-sdk/lib/lwip/src/core/timeouts.s: C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/timeouts.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/core/udp.obj: C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/udp.obj
+C_/pico/pico-sdk/lib/lwip/src/core/udp.obj: C_/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/udp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/core/udp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/core/udp.i: C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/udp.i
+C_/pico/pico-sdk/lib/lwip/src/core/udp.i: C_/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/udp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.i
+C_/pico/pico-sdk/lib/lwip/src/core/udp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/udp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/core/udp.s: C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/udp.s
+C_/pico/pico-sdk/lib/lwip/src/core/udp.s: C_/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/udp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/core/udp.c.s
+C_/pico/pico-sdk/lib/lwip/src/core/udp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/core/udp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj: C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.i: C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.i
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i: C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.s: C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.s
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s: C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.i: C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.s: C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj: C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.i: C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.i
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i: C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.s: C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.s
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s: C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s: C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s: C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/slipif.obj: C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/slipif.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.i: C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.i
+C_/pico/pico-sdk/lib/lwip/src/netif/slipif.i: C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/slipif.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.s: C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.s
+C_/pico/pico-sdk/lib/lwip/src/netif/slipif.s: C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/slipif.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.obj: C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/zepif.obj: C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/zepif.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.i: C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.i
+C_/pico/pico-sdk/lib/lwip/src/netif/zepif.i: C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/zepif.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
 
-C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.s: C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.s
+C_/pico/pico-sdk/lib/lwip/src/netif/zepif.s: C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/zepif.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
-.PHONY : C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : C_/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.i: C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.i
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.s: C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.s
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-C_/Pico/pico-sdk/lib/tinyusb/src/tusb.obj: C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/tusb.obj
+C_/pico/pico-sdk/lib/tinyusb/src/tusb.obj: C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/tusb.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
-C_/Pico/pico-sdk/lib/tinyusb/src/tusb.i: C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/tusb.i
+C_/pico/pico-sdk/lib/tinyusb/src/tusb.i: C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/tusb.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
-C_/Pico/pico-sdk/lib/tinyusb/src/tusb.s: C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/tusb.s
+C_/pico/pico-sdk/lib/tinyusb/src/tusb.s: C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/tusb.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : C_/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-C_/Pico/pico-sdk/src/common/pico_sync/critical_section.obj: C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/critical_section.obj
+C_/pico/pico-sdk/src/common/pico_sync/critical_section.obj: C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
-C_/Pico/pico-sdk/src/common/pico_sync/critical_section.i: C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/critical_section.i
+C_/pico/pico-sdk/src/common/pico_sync/critical_section.i: C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
-C_/Pico/pico-sdk/src/common/pico_sync/critical_section.s: C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/critical_section.s
+C_/pico/pico-sdk/src/common/pico_sync/critical_section.s: C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/critical_section.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-C_/Pico/pico-sdk/src/common/pico_sync/lock_core.obj: C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/lock_core.obj
+C_/pico/pico-sdk/src/common/pico_sync/lock_core.obj: C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/lock_core.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
-C_/Pico/pico-sdk/src/common/pico_sync/lock_core.i: C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/lock_core.i
+C_/pico/pico-sdk/src/common/pico_sync/lock_core.i: C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/lock_core.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
-C_/Pico/pico-sdk/src/common/pico_sync/lock_core.s: C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/lock_core.s
+C_/pico/pico-sdk/src/common/pico_sync/lock_core.s: C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/lock_core.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-C_/Pico/pico-sdk/src/common/pico_sync/mutex.obj: C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/mutex.obj
+C_/pico/pico-sdk/src/common/pico_sync/mutex.obj: C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
-C_/Pico/pico-sdk/src/common/pico_sync/mutex.i: C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/mutex.i
+C_/pico/pico-sdk/src/common/pico_sync/mutex.i: C_/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/mutex.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
+C_/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
-C_/Pico/pico-sdk/src/common/pico_sync/mutex.s: C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/mutex.s
+C_/pico/pico-sdk/src/common/pico_sync/mutex.s: C_/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/mutex.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
+C_/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-C_/Pico/pico-sdk/src/common/pico_sync/sem.obj: C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/sem.obj
+C_/pico/pico-sdk/src/common/pico_sync/sem.obj: C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/sem.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
+C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
-C_/Pico/pico-sdk/src/common/pico_sync/sem.i: C_/Pico/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/sem.i
+C_/pico/pico-sdk/src/common/pico_sync/sem.i: C_/pico/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/sem.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/sem.c.i
+C_/pico/pico-sdk/src/common/pico_sync/sem.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
-C_/Pico/pico-sdk/src/common/pico_sync/sem.s: C_/Pico/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/sem.s
+C_/pico/pico-sdk/src/common/pico_sync/sem.s: C_/pico/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/sem.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_sync/sem.c.s
+C_/pico/pico-sdk/src/common/pico_sync/sem.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-C_/Pico/pico-sdk/src/common/pico_time/time.obj: C_/Pico/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/time.obj
+C_/pico/pico-sdk/src/common/pico_time/time.obj: C_/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/time.c.obj
+C_/pico/pico-sdk/src/common/pico_time/time.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/time.c.obj
 
-C_/Pico/pico-sdk/src/common/pico_time/time.i: C_/Pico/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/time.i
+C_/pico/pico-sdk/src/common/pico_time/time.i: C_/pico/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/time.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/time.c.i
+C_/pico/pico-sdk/src/common/pico_time/time.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/time.c.i
 
-C_/Pico/pico-sdk/src/common/pico_time/time.s: C_/Pico/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/time.s
+C_/pico/pico-sdk/src/common/pico_time/time.s: C_/pico/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/time.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/time.c.s
+C_/pico/pico-sdk/src/common/pico_time/time.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/time.c.s
 
-C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.obj: C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.obj
+C_/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
-C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.i: C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.i
+C_/pico/pico-sdk/src/common/pico_time/timeout_helper.i: C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/timeout_helper.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
-C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.s: C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.s
+C_/pico/pico-sdk/src/common/pico_time/timeout_helper.s: C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/timeout_helper.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-C_/Pico/pico-sdk/src/common/pico_util/datetime.obj: C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/datetime.obj
+C_/pico/pico-sdk/src/common/pico_util/datetime.obj: C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/datetime.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
+C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
-C_/Pico/pico-sdk/src/common/pico_util/datetime.i: C_/Pico/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/datetime.i
+C_/pico/pico-sdk/src/common/pico_util/datetime.i: C_/pico/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/datetime.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/datetime.c.i
+C_/pico/pico-sdk/src/common/pico_util/datetime.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
-C_/Pico/pico-sdk/src/common/pico_util/datetime.s: C_/Pico/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/datetime.s
+C_/pico/pico-sdk/src/common/pico_util/datetime.s: C_/pico/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/datetime.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/datetime.c.s
+C_/pico/pico-sdk/src/common/pico_util/datetime.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-C_/Pico/pico-sdk/src/common/pico_util/pheap.obj: C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/pheap.obj
+C_/pico/pico-sdk/src/common/pico_util/pheap.obj: C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
-C_/Pico/pico-sdk/src/common/pico_util/pheap.i: C_/Pico/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/pheap.i
+C_/pico/pico-sdk/src/common/pico_util/pheap.i: C_/pico/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/pheap.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/pheap.c.i
+C_/pico/pico-sdk/src/common/pico_util/pheap.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
-C_/Pico/pico-sdk/src/common/pico_util/pheap.s: C_/Pico/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/pheap.s
+C_/pico/pico-sdk/src/common/pico_util/pheap.s: C_/pico/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/pheap.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/pheap.c.s
+C_/pico/pico-sdk/src/common/pico_util/pheap.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-C_/Pico/pico-sdk/src/common/pico_util/queue.obj: C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/queue.obj
+C_/pico/pico-sdk/src/common/pico_util/queue.obj: C_/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
+C_/pico/pico-sdk/src/common/pico_util/queue.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
-C_/Pico/pico-sdk/src/common/pico_util/queue.i: C_/Pico/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/queue.i
+C_/pico/pico-sdk/src/common/pico_util/queue.i: C_/pico/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/queue.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/queue.c.i
+C_/pico/pico-sdk/src/common/pico_util/queue.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/queue.c.i
 
-C_/Pico/pico-sdk/src/common/pico_util/queue.s: C_/Pico/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/queue.s
+C_/pico/pico-sdk/src/common/pico_util/queue.s: C_/pico/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/queue.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : C_/Pico/pico-sdk/src/common/pico_util/queue.c.s
+C_/pico/pico-sdk/src/common/pico_util/queue.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : C_/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
+C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
+C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj: C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
+C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
+C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj: C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.i: C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.i
+C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i: C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.s: C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.s
+C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s: C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
+C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
+C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
+C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
+C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
+C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
+C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
+C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
+C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
+C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
+C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
+C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
+C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
+C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
+C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
+C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.i: C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.i
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.s: C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.s
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.i: C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.i
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.s: C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.s
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
+C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
+C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
+C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
+C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
+C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i: C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i: C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s: C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
+C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s: C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
+C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.i: C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.i
+C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.s: C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.s
+C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
+C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.i: C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.i
+C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.s: C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.s
+C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.obj: C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.obj
+C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj: C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.i: C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.i
+C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.i: C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.s: C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.s
+C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.s: C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 
 # target to build an object file
-C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
-C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 
 # target to preprocess a source file
-C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
-C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
 
 # target to generate assembly for a file
-C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 motor_control.obj: motor_control.c.obj
 .PHONY : motor_control.obj
 
 # target to build an object file
 motor_control.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/motor_control.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/motor_control.c.obj
 .PHONY : motor_control.c.obj
 
 motor_control.i: motor_control.c.i
@@ -4303,7 +4303,7 @@ motor_control.i: motor_control.c.i
 
 # target to preprocess a source file
 motor_control.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/motor_control.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/motor_control.c.i
 .PHONY : motor_control.c.i
 
 motor_control.s: motor_control.c.s
@@ -4311,7 +4311,7 @@ motor_control.s: motor_control.c.s
 
 # target to generate assembly for a file
 motor_control.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/motor_control.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\motor_control.dir\build.make main/CMakeFiles/motor_control.dir/motor_control.c.s
 .PHONY : motor_control.c.s
 
 picow_tcp_client.obj: picow_tcp_client.c.obj
@@ -4319,7 +4319,7 @@ picow_tcp_client.obj: picow_tcp_client.c.obj
 
 # target to build an object file
 picow_tcp_client.c.obj:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/picow_tcp_client.c.obj
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/picow_tcp_client.c.obj
 .PHONY : picow_tcp_client.c.obj
 
 picow_tcp_client.i: picow_tcp_client.c.i
@@ -4327,7 +4327,7 @@ picow_tcp_client.i: picow_tcp_client.c.i
 
 # target to preprocess a source file
 picow_tcp_client.c.i:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/picow_tcp_client.c.i
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/picow_tcp_client.c.i
 .PHONY : picow_tcp_client.c.i
 
 picow_tcp_client.s: picow_tcp_client.c.s
@@ -4335,7 +4335,7 @@ picow_tcp_client.s: picow_tcp_client.c.s
 
 # target to generate assembly for a file
 picow_tcp_client.c.s:
-	cd /d E:\Challenge\challenge_instrument\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/picow_tcp_client.c.s
+	cd /d C:\pico\challenge_instrument-1\build && $(MAKE) $(MAKESILENT) -f main\CMakeFiles\picow_tcpip_client_background.dir\build.make main/CMakeFiles/picow_tcpip_client_background.dir/picow_tcp_client.c.s
 .PHONY : picow_tcp_client.c.s
 
 # Help Target
@@ -4350,506 +4350,506 @@ help:
 	@echo ... picow_tcpip_client_background_encoder_pio_h
 	@echo ... motor_control
 	@echo ... picow_tcpip_client_background
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
-	@echo ... C_/Pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/api_lib.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/api_msg.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/err.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/err.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/err.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/if_api.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/if_api.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/if_api.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/netbuf.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/netdb.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/netdb.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/netdb.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/netifapi.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/sockets.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/sockets.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/sockets.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/api/tcpip.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/altcp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/altcp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/altcp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/def.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/def.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/def.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/dns.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/dns.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/dns.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/inet_chksum.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/init.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/init.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/init.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ip.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ip.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ip.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/mem.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/mem.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/mem.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/memp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/memp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/memp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/netif.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/netif.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/netif.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/pbuf.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/raw.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/raw.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/raw.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/stats.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/stats.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/stats.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/sys.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/sys.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/sys.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/tcp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/tcp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/tcp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/tcp_in.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/tcp_out.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/timeouts.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/udp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/udp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/core/udp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ethernet.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/slipif.s
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.obj
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.i
-	@echo ... C_/Pico/pico-sdk/lib/lwip/src/netif/zepif.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/tusb.obj
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/tusb.i
-	@echo ... C_/Pico/pico-sdk/lib/tinyusb/src/tusb.s
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/critical_section.obj
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/critical_section.i
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/critical_section.s
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/lock_core.obj
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/lock_core.i
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/lock_core.s
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/mutex.obj
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/mutex.i
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/mutex.s
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/sem.obj
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/sem.i
-	@echo ... C_/Pico/pico-sdk/src/common/pico_sync/sem.s
-	@echo ... C_/Pico/pico-sdk/src/common/pico_time/time.obj
-	@echo ... C_/Pico/pico-sdk/src/common/pico_time/time.i
-	@echo ... C_/Pico/pico-sdk/src/common/pico_time/time.s
-	@echo ... C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.obj
-	@echo ... C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.i
-	@echo ... C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.s
-	@echo ... C_/Pico/pico-sdk/src/common/pico_util/datetime.obj
-	@echo ... C_/Pico/pico-sdk/src/common/pico_util/datetime.i
-	@echo ... C_/Pico/pico-sdk/src/common/pico_util/datetime.s
-	@echo ... C_/Pico/pico-sdk/src/common/pico_util/pheap.obj
-	@echo ... C_/Pico/pico-sdk/src/common/pico_util/pheap.i
-	@echo ... C_/Pico/pico-sdk/src/common/pico_util/pheap.s
-	@echo ... C_/Pico/pico-sdk/src/common/pico_util/queue.obj
-	@echo ... C_/Pico/pico-sdk/src/common/pico_util/queue.i
-	@echo ... C_/Pico/pico-sdk/src/common/pico_util/queue.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_exception/exception.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_rand/rand.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
-	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
+	@echo ... C_/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/api_lib.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/api_lib.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/api_lib.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/api_msg.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/api_msg.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/api_msg.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/err.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/err.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/err.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/if_api.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/if_api.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/if_api.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/netbuf.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/netbuf.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/netbuf.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/netdb.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/netdb.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/netdb.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/netifapi.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/netifapi.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/netifapi.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/sockets.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/sockets.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/sockets.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/tcpip.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/tcpip.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/api/tcpip.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/altcp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/altcp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/altcp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/def.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/def.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/def.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/dns.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/dns.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/dns.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/init.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/init.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/init.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ip.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ip.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ip.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/mem.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/mem.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/mem.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/memp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/memp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/memp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/netif.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/netif.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/netif.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/pbuf.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/pbuf.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/pbuf.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/raw.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/raw.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/raw.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/stats.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/stats.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/stats.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/sys.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/sys.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/sys.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/tcp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/tcp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/tcp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/tcp_in.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/tcp_out.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/timeouts.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/timeouts.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/timeouts.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/udp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/udp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/core/udp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ethernet.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/slipif.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/slipif.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/slipif.s
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/zepif.obj
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/zepif.i
+	@echo ... C_/pico/pico-sdk/lib/lwip/src/netif/zepif.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/tusb.obj
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/tusb.i
+	@echo ... C_/pico/pico-sdk/lib/tinyusb/src/tusb.s
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/critical_section.obj
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/critical_section.i
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/critical_section.s
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/lock_core.obj
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/lock_core.i
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/lock_core.s
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/mutex.obj
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/mutex.i
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/mutex.s
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/sem.obj
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/sem.i
+	@echo ... C_/pico/pico-sdk/src/common/pico_sync/sem.s
+	@echo ... C_/pico/pico-sdk/src/common/pico_time/time.obj
+	@echo ... C_/pico/pico-sdk/src/common/pico_time/time.i
+	@echo ... C_/pico/pico-sdk/src/common/pico_time/time.s
+	@echo ... C_/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
+	@echo ... C_/pico/pico-sdk/src/common/pico_time/timeout_helper.i
+	@echo ... C_/pico/pico-sdk/src/common/pico_time/timeout_helper.s
+	@echo ... C_/pico/pico-sdk/src/common/pico_util/datetime.obj
+	@echo ... C_/pico/pico-sdk/src/common/pico_util/datetime.i
+	@echo ... C_/pico/pico-sdk/src/common/pico_util/datetime.s
+	@echo ... C_/pico/pico-sdk/src/common/pico_util/pheap.obj
+	@echo ... C_/pico/pico-sdk/src/common/pico_util/pheap.i
+	@echo ... C_/pico/pico-sdk/src/common/pico_util/pheap.s
+	@echo ... C_/pico/pico-sdk/src/common/pico_util/queue.obj
+	@echo ... C_/pico/pico-sdk/src/common/pico_util/queue.i
+	@echo ... C_/pico/pico-sdk/src/common/pico_util/queue.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_rand/rand.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
 	@echo ... motor_control.obj
 	@echo ... motor_control.i
 	@echo ... motor_control.s
@@ -4867,6 +4867,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\Challenge\challenge_instrument\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\pico\challenge_instrument-1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -29,7 +29,7 @@
 #define PINA(X) (2+2*X)
 #define PINB(X) (3+2*X)
 #define PWM_PIN(X) (X-1)
-#define ENC_PIN(X) (14 + 2*(X-1))
+#define ENC_PIN(X) (12 + 2*(X-1))
 
 
 #define DEBUGG "nigger"
@@ -236,10 +236,7 @@ int main() {
     bool available_message = false;
     multicore_launch_core1(core1_entry);
 
-    int new_value1, delta, old_value1 = 0;
-    int new_value2, delta2, old_value2 = 0;
-    int new_value3, delta3, old_value3 = 0;
-    int new_value4, delta4, old_value4 = 0;
+
 
     // Set encoder pins and state machines
     // Base pin to connect the A phase of the encoder.
@@ -250,16 +247,16 @@ int main() {
     const uint PIN_AB4 = 18; 
 
     PIO  pio2 = pio1;
-    const uint sm = 0;
+    const uint sm1 = 0;
     const uint sm2 = 1;
     const uint sm3 = 2;
     const uint sm4 = 3;
 
     uint offset2 = pio_add_program(pio2, &quadrature_encoder_program);
-    quadrature_encoder_program_init(pio2, sm, offset2, PIN_AB, 0);
-    quadrature_encoder_program_init(pio2,sm2, offset2, PIN_AB2, 0);
-    quadrature_encoder_program_init(pio2, sm3, offset2, PIN_AB3, 0);
-    quadrature_encoder_program_init(pio2,sm4, offset2, PIN_AB4, 0);  
+    quadrature_encoder_program_init(pio2, sm1, offset2, ENC_PIN(1), 0);
+    quadrature_encoder_program_init(pio2, sm2, offset2, ENC_PIN(2), 0);
+    quadrature_encoder_program_init(pio2, sm3, offset2, ENC_PIN(3), 0);
+    quadrature_encoder_program_init(pio2, sm4, offset2, ENC_PIN(4), 0);  
     /*
     // Set PWM pins and channels for motor drivers
     gpio_set_function(0, GPIO_FUNC_PWM);
@@ -288,7 +285,7 @@ int main() {
     pwm_set_gpio_level(1, 9804/2);
     pwm_set_gpio_level(2, 9804/2);
     pwm_set_gpio_level(3, 9804/2);
-    */
+    
     // Set GPIO pins for motor driver inputs
     const uint PIN_IN1A = 4;
     const uint PIN_IN1B = 5;
@@ -297,11 +294,29 @@ int main() {
     const uint PIN_IN3A = 8;
     const uint PIN_IN3B = 9;
     const uint PIN_IN4A = 10;
-    const uint PIN_IN4B = 11; 
+    const uint PIN_IN4B = 11; */
 
-    struct Motor motor = init_motor(PINA(2),PINB(2),ENC_PIN(2));
-    init_motor_pwm(&motor,0,9804/2);
-    init_PID(&motor,500,30000);
+    struct Motor motor1 = init_motor(PINA(1),PINB(1),ENC_PIN(1),300,12);
+    struct Motor motor2 = init_motor(PINA(2),PINB(2),ENC_PIN(2),75,12);
+    struct Motor motor3 = init_motor(PINA(3),PINB(3),ENC_PIN(3),75,12);
+    struct Motor motor4 = init_motor(PINA(4),PINB(4),ENC_PIN(4),300,12);
+    
+    init_motor_pwm(&motor1,PWM_PIN(1),9804/2);
+    init_motor_pwm(&motor2,PWM_PIN(2),9804/2);
+    init_motor_pwm(&motor3,PWM_PIN(3),9804/2);
+    init_motor_pwm(&motor4,PWM_PIN(4),9804/2);
+
+    init_PID(&motor1,500,180);
+    init_PID(&motor2,500,180);
+    init_PID(&motor3,500,180);
+    init_PID(&motor4,500,20);
+
+   /* nu stiu dcaa mai e nevoie de astea, le las aci momentan , da!
+    int delta, old_value1 = 0;
+    int new_value2, delta2, old_value2 = 0;
+    int new_value3, delta3, old_value3 = 0;
+    int new_value4, delta4, old_value4 = 0;*/
+
 
     while(1){
         if(is_spin_locked(spinlock)){
@@ -316,7 +331,13 @@ int main() {
             sleep_ms(1);
         }
 
-        new_value3 = quadrature_encoder_get_count(pio2, sm3);
+        motor1.pid.current_pos = quadrature_encoder_get_count(pio2, sm1);
+        motor2.pid.current_pos = quadrature_encoder_get_count(pio2, sm2);
+        motor3.pid.current_pos = quadrature_encoder_get_count(pio2, sm3);
+        motor4.pid.current_pos = quadrature_encoder_get_count(pio2, sm4);
+
+
+
         //new_value2 = quadrature_encoder_get_count(pio2, sm2);
         //new_value1 = quadrature_encoder_get_count(pio2, sm);
         /*
@@ -333,9 +354,9 @@ int main() {
         old_value4 = new_value4;
         */
 
-        move_motor_abs(&motor, 900, new_value3);
+        move_motor_abs(&motor1, 127);
 
-        printf("___________________\nposition 1 %8d|\n", new_value3);
+        printf("___________________\nposition 1 %8d|\n", motor1.pid.current_pos);
         /*
         printf("___________________\nposition 2 %8d| delta 2 %6d|\n", new_value2, delta2);
         printf("___________________\nposition 3 %8d| delta 3 %6d|\n", new_value3, delta3);

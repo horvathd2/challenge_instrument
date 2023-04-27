@@ -15,7 +15,7 @@ struct PWM{
 };
 struct PID{
     uint8_t Kp;
-    uint32_t minSpeed;
+    uint32_t maxSpeed;
     long int current_pos;
     long int pos_error;
     long int pos_setpoint;
@@ -23,12 +23,17 @@ struct PID{
     uint32_t critical_delta;
     uint32_t limit;
 };
+struct encoder{
+    int gear_ratio;
+    int ticks_per_rev;
+    int encoderAB;
+};
 struct Motor{
     int fwdPin;
     int bwdPin;
-    int encoderAB;
     struct PWM pwm;
     struct PID pid; 
+    struct encoder encoder; 
 };
 
 
@@ -40,21 +45,23 @@ struct Motor{
  * @param pwm_pin pin for pwm to driver, pins are in pairs doe to slices
  * @return motor structure
 */
-struct Motor init_motor(const int fwdPin,const int bwdPin,const int encoderAB){
+struct Motor init_motor(const int fwdPin,const int bwdPin,const int encoderAB, int gear_ratio, int tick_per_rev){
    
     // initialize motor components
     struct Motor motor;
     motor.fwdPin = fwdPin;
     motor.bwdPin = bwdPin;
-    motor.encoderAB = encoderAB;
+    motor.encoder.encoderAB = encoderAB;
 
     // initialize pins
     gpio_init(fwdPin);
     gpio_init(bwdPin);
     gpio_set_dir(fwdPin, true);
     gpio_set_dir(bwdPin, true);
-
+    motor.encoder.gear_ratio = gear_ratio;
+    motor.encoder.ticks_per_rev = tick_per_rev;
     return motor;
+
 }
 
 /**
@@ -65,7 +72,7 @@ struct Motor init_motor(const int fwdPin,const int bwdPin,const int encoderAB){
 */
 void init_PID(struct Motor *motor,const int critical_delta, const int limit){
     motor->pid.critical_delta = critical_delta;
-    motor->pid.limit = limit;
+    motor->pid.limit = limit/360* motor->encoder.gear_ratio * motor->encoder.ticks_per_rev;
 }
 
 /**
@@ -124,9 +131,8 @@ inline static void stop(const struct Motor *motor){
  * @param motor motor in question
  * @param encoder the position of the motor given by encoder ticks
 */
-void update_error(struct Motor *motor,const int encoder){
-    motor->pid.current_pos = encoder;
-    motor->pid.pos_error = motor->pid.pos_setpoint - encoder;
+void update_error(struct Motor *motor){
+    motor->pid.pos_error = motor->pid.pos_setpoint - motor->pid.current_pos;
 }
 
 /**
@@ -143,9 +149,9 @@ static void set_motor_sp(struct Motor *motor,const long int SP){
 */
 inline static void compute_duty(struct Motor *motor){
     if(motor->pid.pos_error > motor->pid.critical_delta) 
-        motor->pid.duty_cycle = 100; //max speed in %
+        motor->pid.duty_cycle = motor->pid.maxSpeed; //max speed in %
     else
-        motor->pid.duty_cycle = motor->pid.minSpeed + ((abs(motor->pid.pos_error)/motor->pid.critical_delta)*(100));
+        motor->pid.duty_cycle = ((abs(motor->pid.pos_error)/motor->pid.critical_delta)*(100));
     motor->pid.duty_cycle = motor->pid.duty_cycle/100 * 65535;    
 }
 /**
@@ -164,10 +170,9 @@ bool motor_stop_cond(const struct Motor motor){
  * @tparam forward()  - action function
  * @tparam backward()  - action function 
  * @tparam stop()  - action function
- * @param encoder encoder ticks from PIO
  * 
 */
-void move_motor_inc(struct Motor *motor,uint32_t *position_delta,  void (*action)(struct Motor), uint encoder){
+void move_motor_inc(struct Motor *motor,uint32_t *position_delta,  void (*action)(struct Motor)){
     
     compute_duty(motor);
     (*action)(*motor);
@@ -176,24 +181,43 @@ void move_motor_inc(struct Motor *motor,uint32_t *position_delta,  void (*action
         set_motor_sp(motor,motor->pid.current_pos);
         *position_delta = 0;
     }
-    else update_error(motor, encoder);     
+    update_error(motor);    
+}
+/**
+ * @brief converts axis degress into ticks, taking the gear ratio into account
+ * @param deg the degrees of rotation
+ * @param motor the motor struct in question
+ * 
+*/
+int deg2ticks(const int deg, const struct Motor *motor){
+    return deg/360* motor->encoder.gear_ratio * motor->encoder.ticks_per_rev;
+}
+/**
+ * @brief converts imput percentage [0-255] into motor encoder ticks
+ * @param input the input value in rage [0-255]
+ * @param motor the motor struct in question
+*/
+static int input2ticks(const int input,const struct Motor *motor){
+    return 2*motor->pid.limit/255*input - motor->pid.limit;
 }
 /**
  * @brief absolute control for the motors
  * @param motor mtor strcuture variable
- * @param abs_pos absolute position [ticks]
- * @param encoder encoder ticks[ticks]
+ * @param abs_pos absolute position percentage [0-255]
 */
-void move_motor_abs(struct Motor *motor, long int abs_pos,int encoder){
-    set_motor_sp(motor,abs_pos);
-    update_error(motor,encoder);
+void move_motor_abs(struct Motor *motor,const long int abs_pos){
+    set_motor_sp(motor,input2ticks(abs_pos,motor));
+    update_error(motor);
     compute_duty(motor);
     if(motor->pid.pos_error > MIN_POS_DELTA){
         forward(motor);
-        printf("%d ticks, %d err, %d sp\n ", encoder, motor->pid.pos_error, motor->pid.pos_setpoint);
+        printf("%d ticks, %d err, %d sp\n ", motor->pid.current_pos, motor->pid.pos_error, motor->pid.pos_setpoint);
     }
     else if (motor->pid.pos_error < -MIN_POS_DELTA) backrward(motor);
-    else stop(motor);
+    else{ 
+        stop(motor); 
+    }
     printf("%d \n", motor->pid.duty_cycle);
-    
 }
+
+

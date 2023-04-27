@@ -299,7 +299,7 @@ int main() {
     const uint PIN_IN4A = 10;
     const uint PIN_IN4B = 11; 
 
-    struct Motor motor = init_motor(PINA(1),PINB(1),ENC_PIN(1));
+    struct Motor motor = init_motor(PINA(2),PINB(2),ENC_PIN(2));
     init_motor_pwm(&motor,0,9804/2);
     init_PID(&motor,1000,30000);
 

@@ -154,7 +154,7 @@ inline static void compute_duty(struct Motor *motor){
  * @return true if motor is in stop condition 
 */
 bool motor_stop_cond(const struct Motor motor){
-    return (motor.pid.pos_error < MIN_POS_DELTA) || (abs(motor.pid.current_pos) >= motor.pid.limit));
+    return (motor.pid.pos_error < MIN_POS_DELTA) || (abs(motor.pid.current_pos) >= motor.pid.limit);
 }
 /**
  * @brief function to move the motors by delta amount of ticks  
